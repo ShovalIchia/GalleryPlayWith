@@ -1,0 +1,488 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Titan+One&display=swap');
+
+body {
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+nav ul li:hover > ul.sub-menu {
+    display: block;
+}
+
+nav ul ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+nav ul ul.sub-menu li {
+    display: block;
+}
+
+nav ul ul.sub-menu li a {
+    padding: 10px;
+    color: #333;
+}
+
+nav ul ul.sub-menu li a:hover {
+    background-color: #FF6347;
+    color: white;
+    text-decoration: 2px solid #413ADA underline;
+    font-weight: bold;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFD700;
+}
+
+.nav-ul a:hover{
+    background-color: #FF6347;
+}
+
+/* Breadcrumbs */
+nav ol li {
+    display: inline-block;
+}
+
+nav ol li:after {
+    content: ">";
+    margin-right: 5px;
+}
+
+nav ol li:last-child:after {
+    content: "";
+}
+
+.notActive {
+    color: currentColor;
+    cursor: not-allowed;
+}
+
+/* Styles for the website title and sub title*/
+.page-title {
+    margin-top: 20px;
+    font-size: 4vw;
+    color: #413ADA;
+    text-align: center;
+}
+
+.sub-page-title {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/*pictures*/
+.pictures-rectangle {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.pictures-flex {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+.pictures-flex:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+/* Styles for the section container - 1st paragraph */
+.section-container {
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+.p1-content {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Styles for the navigation pages circles */
+.circle-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #FF6347;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px; 
+    transition: border-color 0.3s ease; 
+}
+
+.circle:hover {
+    border: 3px solid #413ADA;
+    color: white;
+    text-decoration: 2px solid #413ADA underline;
+}
+
+.text {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#dital-games-circle:link, #dital-games-circle:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
+#dital-games-circle:hover, #dital-games-circle:active {
+    text-decoration: underline;
+}
+
+/* Styles for the check-list section */
+.application-steps {
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+mport url('https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;600;700;800&family=Titan+One&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+    font-family: 'Assistant', sans-serif;
+    margin: 0 auto;
+    width: 1280px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+    nav ul li a {
+        display: block;
+        padding: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+    nav ul li:hover > ul.sub-menu {
+        display: block;
+    }
+
+nav ul ul.sub-menu {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    padding: 0;
+}
+
+nav ul ul.sub-menu li {
+    display: block;
+}
+
+nav ul ul.sub-menu li a {
+    padding: 10px;
+    color: #333;
+}
+
+nav ul ul.sub-menu li a:hover {
+    background-color: #FF6347;
+    color: white;
+    text-decoration: 2px solid #413ADA underline;
+    font-weight: bold;
+}
+
+.nav-ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFD700;
+}
+
+.nav-ul a:hover {
+    background-color: #FF6347;
+}
+
+/* Breadcrumbs */
+nav ol li {
+    display: inline-block;
+}
+
+nav ol li:after {
+    content: ">";
+    margin-right: 5px;
+}
+
+nav ol li:last-child:after {
+    content: "";
+}
+
+.notActive {
+    color: currentColor;
+    cursor: not-allowed;
+}
+
+/* Styles for the website title and sub title*/
+.page-title {
+    margin-top: 20px;
+    font-size: 4vw;
+    color: #413ADA;
+    text-align: center;
+}
+
+.sub-page-title {
+    text-align: center;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+/*pictures*/
+.pictures-rectangle {
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.pictures-flex {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    transition: 1s ease;
+}
+
+.pictures-flex:hover {
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(1.05);
+    transition: 1s;
+}
+
+/* Styles for the section container - 1st paragraph */
+.section-container {
+    margin-right: 35px;
+    margin-bottom: 35px;
+}
+
+.p1-content {
+    font-size: 1.5vw;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+/* Styles for the navigation pages circles */
+.circle-shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.circle {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    background-color: #FF6347;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+    transition: border-color 0.3s ease;
+}
+
+.circle:hover {
+    border: 3px solid #413ADA;
+    color: white;
+    text-decoration: 2px solid #413ADA underline;
+}
+
+.text {
+    text-align: center;
+    font-size: 2vw;
+}
+
+#dital-games-circle:link, #dital-games-circle:visited {
+    text-decoration: none;
+    color: currentColor;
+}
+
+#dital-games-circle:hover, #dital-games-circle:active {
+    text-decoration: underline;
+}
+
+/* Styles for the check-list section */
+.application-steps {
+    font-size: 1.5vw;
+    line-height: 1.5;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+.container {
+    position: relative;
+    width: 80%; 
+    height: 80%;
+    margin-right: 10%; 
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+    background-color: #222;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.prev {
+    left: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #413ADA;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+
+.row {
+    height: 150px;
+    margin-bottom: 50px;
+}
+
+.size {
+    width: 150px;
+    height: 150px;
+}
+
+.bigPic {
+    height: 500px;
+}
